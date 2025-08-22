@@ -1,5 +1,14 @@
 ![Build Status](https://github.com/aws/aws-xray-sdk-java/actions/workflows/master-build.yml/badge.svg)
 
+## :mega: Upcoming Maintenance Mode on February 25, 2026
+
+The AWS X-Ray SDKs [will enter][xray-sdk-daemon-timeline] maintenance mode on **February 25, 2026** and reach end-of-support on **February 25, 2027**. During maintenance mode, the X-Ray SDKs and Daemon will only receive critical bug fixes and security updates, and will not be updated to support new features.
+
+We recommend that you migrate to [AWS Distro for OpenTelemetry (ADOT) or OpenTelemetry Instrumentation][xray-otel-migration-docs] to generate traces (through manual or zero-code instrumentation) from your application and send them to AWS X-Ray. OpenTelemetry is the industry-wide standard for tracing instrumentation and observability. It has a large open-source community for support and provides more instrumentations and updates. By adopting an OpenTelemetry solution, developers can leverage the latest services and innovations from AWS CloudWatch.
+
+[xray-otel-migration-docs]: https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-migration.html
+[xray-sdk-daemon-timeline]: https://docs.aws.amazon.com/xray/latest/devguide/xray-daemon-eos.html
+
 ### :mega: OpenTelemetry Java with AWS X-Ray
 
 AWS X-Ray supports using OpenTelemetry Java and the AWS Distro for OpenTelemetry (ADOT) Collector to instrument your application and send trace data to X-Ray. The OpenTelemetry SDKs are an industry-wide standard for tracing instrumentation. They provide more instrumentations and have a larger community for support, but may not have complete feature parity with the X-Ray SDKs. See [choosing between the ADOT and X-Ray SDKs](https://docs.aws.amazon.com/xray/latest/devguide/xray-instrumenting-your-app.html#xray-instrumenting-choosing) for more help with choosing between the two.
