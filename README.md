@@ -1,5 +1,11 @@
 ![Build Status](https://github.com/aws/aws-xray-sdk-java/actions/workflows/master-build.yml/badge.svg)
 
+## :mega: Lorem ipsum dolor sit amet
+
+Lorem ipsum dolor sit amet, [consectetur adipiscing elit][otel-migration-docs], sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+[otel-migration-docs]: https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-migration.html
+
 ### :mega: OpenTelemetry Java with AWS X-Ray
 
 AWS X-Ray supports using OpenTelemetry Java and the AWS Distro for OpenTelemetry (ADOT) Collector to instrument your application and send trace data to X-Ray. The OpenTelemetry SDKs are an industry-wide standard for tracing instrumentation. They provide more instrumentations and have a larger community for support, but may not have complete feature parity with the X-Ray SDKs. See [choosing between the ADOT and X-Ray SDKs](https://docs.aws.amazon.com/xray/latest/devguide/xray-instrumenting-your-app.html#xray-instrumenting-choosing) for more help with choosing between the two.
